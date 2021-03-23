@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: "Your MySql Database URL"
+    password: "Your MySql Database password"
+    username: "Your MySql Database username"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+jigsly:
+  client-url: "Your Client URL"
